@@ -17,7 +17,7 @@ public class EmployeeService implements IEmployee{
 	@Override
 	public String saveEmp(Employee employee) {
 		employeeRepository.save(employee);
-		return "Employe saved successfully";
+		return "Employee saved successfully";
 	}
 
 	@Override
