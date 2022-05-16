@@ -7,5 +7,8 @@ public class TestController {
 		System.out.println("dispaly method");
 	}
 	
+	public void charyMethod() {
+		System.out.println("Chary is added");
+	}
 	
 }
